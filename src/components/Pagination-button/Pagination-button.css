@@ -1,0 +1,15 @@
+.bullet{
+    width: 12px;
+    height: 12px;
+    padding: 0;
+    margin: 8px;
+    border: none;
+    border-radius: 100%;
+    background-color: #d0d7de;
+    transition: .2s all;
+}
+.bullet--active{
+    width: 32px;
+    background-color: #fd8c73;
+    border-radius: 12px;
+}
